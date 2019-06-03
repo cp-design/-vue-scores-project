@@ -1,0 +1,40 @@
+$themeColor: #465873;
+$baseImageURL: '~sysStatic/images/dark/';
+
+/* 基础颜色
+-------------------------- */
+$lighterGray: #eee;
+$lightGray: #ccc;
+
+$themeColorLighter: lighten($themeColor, 5%);
+$themeColorDarken: darken($themeColor, 8%);
+
+
+/* 组件设置
+-------------------------- */
+/* login */
+$loginBg: url($baseImageURL+"background.png");
+$loginBtn: #424f60;
+$loginTextColor: $lightGray;
+$loginInputBorderColor: none;
+$loginInputBg: $lighterGray;
+$loginInputErrBg: #ffdede;
+$loginInputColor: #666;
+$loginLangCurBg: #ff6363;
+$loginLangCurColor: $themeColor;
+
+/* header */
+$headerBgColor: $themeColorDarken;
+
+/* nav */
+$leftNavBg: #f4f4f4;
+$leftNavColor: #333;
+$leftNavBorder: none;
+
+$topNavItemColor: $leftNavColor;
+$topNavItemHoverBg: darken($headerBgColor, 8%);
+$topNavItemActiveBg: #20a0ff;
+
+$topSubNavBg: $headerBgColor;
+$topSubNavItemColor: $topNavItemColor;
+$topSubNavItemHover: $topNavItemHoverBg;

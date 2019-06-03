@@ -1,0 +1,17 @@
+.sys-search{
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    /*padding-bottom: 10px;*/
+    /*background-color: $themeGray;*/
+    margin-bottom: $basicMargin;
+}
+
+.sys-search .el-card .el-card__body{
+	padding:10px;
+	background-color: $themeGray;
+}
+.sys-search .el-form .el-form-item{
+	margin-bottom: 0px;
+	padding-left: 10px;
+}
